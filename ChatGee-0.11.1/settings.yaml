@@ -1,0 +1,49 @@
+NGROK:
+  TOKEN: 2Ox1u58JEf49qFTgisNcFBQwOSi_82jHXtPM5DpvoZDTdRRy8
+OPEN_AI:
+  API_KEY: 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
+  MODEL: 'gpt-3.5-turbo'
+  HYPER_TOP_P: 0.5
+  HYPER_TEMPERATURE: 0.0
+  OPENAI_API_ERROR_LOG: "OPENAPI_ERROR_MSG.log"
+
+DATABASE:
+  DB_PREFIX: ChatGee
+
+SETTINGS:
+  CALLBACK: True
+  NO_FRIEND_USE_LIMIT: 3
+  ADVERTISEMENT_FREQUENCY: 0
+  RESPONSE_SAFE_TIME: 3.4
+  SYSTEM_PROMPT: |
+          - Chatgee acts as your friend.
+          - Chatgee speaks Korean and informally in short language.
+          - Chatgee has 5 seconds to answer.
+          - Chatgee responds with words of advice/support, no explanation.
+          - Chatgee will have words to help you get through difficult times.
+          
+CONTENTS:
+  SUPPORT_LINK: https://qr.kakaopay.com/Ej87lce5z9c408045
+
+  GREETINGS:
+    TITLE: 만나서 반갑습니다! 🤗😍👋👋👋
+    TEXTS: |
+          카톡에서 ChatGPT로 번역 🥳🎉
+          어느 언어든지 영어로 번역하고
+          문장을 수정해 줍니다!
+          영어를 넣으시면 한국어로
+          번역해 줍니다!
+
+  EXPLAIN:
+    TEXTS: |
+          어떤 언어든지 영어로 번역!
+            ‣ 영어로 번역하고 문장을 수정
+            
+          영어를 입력하면 한국어로 번역!
+            ‣ 한국어로 입력해 줍니다!
+
+SERVER:
+  HOST_NAME: 0.0.0.0
+  PORT_NUMBER: 6959
+  DEBUG_FLASK: False
+
